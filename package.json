@@ -1,0 +1,30 @@
+{
+  "name": "bemu-validator",
+  "version": "1.0.0",
+  "description": "Customizable JS Object Validator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "set NODE_ENV=testing && nyc mocha",
+    "report": "nyc report --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mustajbasic/bemu-validator"
+  },
+  "keywords": [
+    "bemu",
+    "validator",
+    "belmin",
+    "mustajbasic"
+  ],
+  "author": "Belmin Mustajbasic",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.6.1",
+    "eslint-config-google": "^0.10.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
+}
