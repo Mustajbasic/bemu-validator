@@ -1,6 +1,6 @@
 {
   "name": "bemu-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Customizable JS Object Validator",
   "main": "src/index.js",
   "scripts": {
