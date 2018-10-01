@@ -175,9 +175,21 @@ describe('Testing buildRegex', () => {
         }).should.throw(TypeError, 'isString -> config -> allowedCharacters -> specialCharacters is not array');
     });
     it('should be equal regex for alphanumeric with special characters(@.+-_)', () => {
-        buildRegex(true, true, ['@', '.', '+', '-', '_']).source.should.be.eql('^[a-zA-Z0-9@\\.+-_]*$');
+        buildRegex(true, true, ['@', '.', '+', '-', '_']).source.should.be.eql('^[a-zA-Z0-9@\\.+\\-_]*$');
     });
     it('should be equal regex for special characters(@), ignore multiple and invalid values', () => {
         buildRegex(false, false, ['@', '@', '@', '@', 'invalidValue']).source.should.be.eql('^[@]*$');
+    });
+    it('shold be valid regx and now throw (test case from found bug)', () => {
+        const config = {
+            minLength: 3,
+            maxLength: 16,
+            allowedCharacters: {
+                allowLetters: false,
+                allowNumbers: true,
+                specialCharacters: ['+', '-', '*', '/', '='],
+            },
+        };
+        isString('1+1=2', config).should.be.eql(true);
     });
 });

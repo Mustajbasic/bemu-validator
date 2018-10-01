@@ -285,7 +285,7 @@ const buildRegex = (allowLetters, allowNumbers, specialCharacters = []) => {
     const alreadyAddedChars = [];
     specialCharacters.forEach((specialChar) => {
         if (specialChar.length === 1 && !REGEX.ALPHANUMERIC.test(specialChar) && alreadyAddedChars.indexOf(specialChar) < 0) {
-            if (['.', '*', '\\'].indexOf(specialChar) > -1) {
+            if (['.', '*', '\\', '-'].indexOf(specialChar) > -1) {
                 builtRegex += '\\';
             }
             builtRegex += specialChar;
@@ -426,4 +426,5 @@ if (process && process.env && process.env.NODE_ENV && process.env.NODE_ENV.trim(
         objectHasOnlyKnownProps,
     };
 }
+
 module.exports = forExport;
