@@ -11,6 +11,8 @@ const {
     objectValidator,
     objectHasOnlyKnownProps,
     objectHasRequiredProps,
+    isString,
+    bundleWithConfig,
 } = require('../src/validators');
 const {VALIDATOR_TYPES} = require('../src/constants');
 chai.should();
@@ -238,5 +240,20 @@ describe('Testing object validator generator', () => {
         };
 
         isBook(bookTitleNotString).should.be.eql(false);
+    });
+});
+
+describe('Testing buildWithConfig', () => {
+    it('shoulde be a valid isString validator with config', () => {
+        const config = {
+            minLength: 3,
+            maxLength: 16,
+            alphanumericOnly: true,
+        };
+        const isMyCustomString = bundleWithConfig(isString, config);
+        isMyCustomString('test123').should.be.eql(true);
+        isMyCustomString('test 123').should.be.eql(false);
+        isMyCustomString('hi').should.be.eql(false);
+        isMyCustomString('alsoHiButOver16Characters').should.be.eql(false);
     });
 });

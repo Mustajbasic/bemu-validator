@@ -393,6 +393,12 @@ const objectHasOnlyKnownProps = (object, properties) => {
     return true;
 };
 
+const bundleWithConfig = (validator, config) => {
+    return (object) => {
+        return validator(object, config);
+    };
+};
+
 let forExport = {
     isString,
     isNumber,
@@ -408,6 +414,7 @@ let forExport = {
     emailValidator,
     arrayValidator,
     customValidator,
+    bundleWithConfig,
 };
 
 if (process.env.NODE_ENV.trim() === 'testing') {
