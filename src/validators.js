@@ -417,7 +417,7 @@ let forExport = {
     bundleWithConfig,
 };
 
-if (process.env.NODE_ENV.trim() === 'testing') {
+if (process && process.env && process.env.NODE_ENV && process.env.NODE_ENV.trim() === 'testing') {
     forExport = {
         ...forExport,
         buildRegex,
