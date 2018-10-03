@@ -26,6 +26,8 @@ const isString = (object, config = {}) => {
 
     for (let key in config) {
         switch (key) {
+        case KEYS.REDUCE_SPACES:
+            break;
         case KEYS.MIN_LENGTH:
             if (typeof config[KEYS.MIN_LENGTH] !== TYPES.NUMBER) {
                 throw new TypeError(`isString -> config -> ${key} is not a valid number`);
