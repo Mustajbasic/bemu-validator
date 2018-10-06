@@ -26,5 +26,6 @@
     "eslint-config-google": "^0.10.0",
     "mocha": "^5.2.0",
     "nyc": "^13.0.1"
-  }
+  },
+  "homepage" : "http://myname.github.io/myapp"
 }
