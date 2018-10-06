@@ -16,7 +16,7 @@
 * [emailValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#emailvalidatorisrequired--config)
 * [arrayValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#arrayvalidatorisrequired--config)
 * [customValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#customvalidatorisrequired-isvalid--config)
-* [objectValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.mdhttps://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#objectvalidatorpropertiesproperties)
+* [objectValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#objectvalidatorproperties)
 
 ## isString(object [, config])
 
