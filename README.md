@@ -82,4 +82,4 @@ if(!isBook(potentialBook)) {
     
 }
 ```
-For additional examples and docs please refer to this [page](https://please.stand/by).
+For additional examples and docs please refer to this [page](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md).
