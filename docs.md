@@ -1,20 +1,22 @@
 # Documentation for Bemu Validator
 
-* [isString](#isString)
-* [isNumber](#isNumber)
-* [isBoolean](#isBoolean)
-* [isUrl](#isUrl)
-* [isEmail](#isEmail)
-* [isArray](#isArray)
-* [bundleWithConfig](#bundleWithConfig)
-* [stringValidator](#stringValidator)
-* [numberValidator](#numberValidator)
-* [booleanValidator](#booleanValidator)
-* [urlValidator](#urlValidator)
-* [emailValidator](#emailValidator)
-* [arrayValidator](#arrayValidator)
-* [customValidator](#customValidator)
-* [objectValidator](#objectValidator)
+## Table of contents
+
+* [isString](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isstringobject--config)
+* [isNumber](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isnumberobject--config)
+* [isBoolean](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isbooleanobject)
+* [isUrl](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isurlobject--config)
+* [isEmail](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isemailobject--config)
+* [isArray](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isarrayobject--config)
+* [bundleWithConfig](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#bundlewithconfigvalidator-config)
+* [stringValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#stringvalidatorisrequired--config)
+* [numberValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#numbervalidatorisrequired--config)
+* [booleanValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#booleanvalidatorisrequired--config)
+* [urlValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#urlvalidatorisrequired--config)
+* [emailValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#emailvalidatorisrequired--config)
+* [arrayValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#arrayvalidatorisrequired--config)
+* [customValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#customvalidatorisrequired-isvalid--config)
+* [objectValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#objectvalidatorproperties)
 
 
 
