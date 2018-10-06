@@ -3,8 +3,9 @@ Bemu Validator is a simple, easy customizable JavaScript object validator. It co
 
 # Setting up
 To install the package simply do
-
-  npm i --save bemu-validator
+```npm
+npm i --save bemu-validator
+```
 
 After installaton you can require or import it to your project as
 ```javascript
