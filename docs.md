@@ -534,7 +534,7 @@ The 'isRequired' argument is a boolean and indicates if the field is required. T
 
 ### Example usage
 
-The example uage is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
+The example usage (or of similar kind) is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
 
 [Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents)
 
@@ -546,7 +546,7 @@ The 'isRequired' argument is a boolean and indicates if the field is required. T
 
 ### Example usage
 
-The example uage is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
+The example usage (or of similar kind) is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
 
 [Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents)
 
@@ -558,7 +558,7 @@ The 'isRequired' argument is a boolean and indicates if the field is required. T
 
 ### Example usage
 
-The example uage is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
+The example usage (or of similar kind) is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
 
 
 [Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents)
@@ -576,7 +576,7 @@ The 'isRequired' argument is a boolean and indicates if the field is required. T
 
 ### Example usage
 
-The example uage is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
+The example usage (or of similar kind) is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
 
 [Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents)
 
@@ -592,7 +592,7 @@ The 'isRequired' argument is a boolean and indicates if the field is required. T
 
 ### Example usage
 
-The example uage is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
+The example usage (or of similar kind) is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
 
 [Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents)
 
@@ -608,7 +608,7 @@ The 'isRequired' argument is a boolean and indicates if the field is required. T
 
 ### Example usage
 
-The example uage is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
+The example usage (or of similar kind) is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
 
 [Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents)
 
@@ -620,7 +620,7 @@ In case you need a custom validator, create a function that takes one object (an
 
 ### Example usage
 
-The example uage is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
+The example usage (or of similar kind) is provided in the [Example usage](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#example-usage-14) of objectValidator
 
 [Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents)
 
