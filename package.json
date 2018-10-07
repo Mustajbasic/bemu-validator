@@ -1,6 +1,6 @@
 {
   "name": "bemu-validator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Customizable JS Object Validator",
   "main": "src/index.js",
   "scripts": {
@@ -27,5 +27,5 @@
     "mocha": "^5.2.0",
     "nyc": "^13.0.1"
   },
-  "homepage" : "http://myname.github.io/myapp"
+  "homepage": "http://myname.github.io/myapp"
 }
