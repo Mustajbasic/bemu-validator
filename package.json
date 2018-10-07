@@ -15,7 +15,12 @@
     "bemu",
     "validator",
     "belmin",
-    "mustajbasic"
+    "mustajbasic",
+    "javascript",
+    "object",
+    "type",
+    "validate",
+    "check"
   ],
   "author": "Belmin Mustajbasic <belmin.mustajbasic@gmail.com> (https://mustajbasic.github.io)",
   "license": "ISC",
