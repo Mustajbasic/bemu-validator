@@ -8,6 +8,7 @@
 * [isUrl](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isurlobject--config)
 * [isEmail](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isemailobject--config)
 * [isArray](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isarrayobject--config)
+* [isDate](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#isdateobject--config)
 * [bundleWithConfig](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#bundlewithconfigvalidator-config)
 * [stringValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#stringvalidatorisrequired--config)
 * [numberValidator](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#numbervalidatorisrequired--config)
@@ -495,6 +496,12 @@ isArray([1, 5, 10], {
 ```
 
 [Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents)
+
+## isDate(object [, config])
+
+This method is WIP but as of this moment we are using moment (pun intended) to check if the given object is a valid date. Also so far I exluded numbers to be a valid date as any number is a valid date (unix).
+
+[Back to Top](https://github.com/Mustajbasic/bemu-validator/blob/master/docs.md#table-of-contents
 
 ## bundleWithConfig(validator, config)
 

@@ -19,7 +19,7 @@ describe('Testing isString without config', () => {
 
 describe('Testing isString with config', () => {
     it('should pass, longer than 5 characters', () => {
-        const res = isString('this is a string', {minLength: 5});
+        const res = isString('this is a string', {minLength: 5, reduceSpaces: true});
         res.should.be.eql(true);
     });
 

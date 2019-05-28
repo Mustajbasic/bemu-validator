@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 const {
     TYPES,
     ISSTRING_KEYS,
@@ -166,7 +168,7 @@ const isEmail = (object, config = {}) => {
         return false;
     }
     const domainSplitAtDot = domain.split('.');
-    for (let key in config) {
+    for (const key in config) {
         switch (key) {
         case KEYS.MIN_NAME_LENGTH:
             if (typeof config[KEYS.MIN_NAME_LENGTH] !== TYPES.NUMBER) {
@@ -264,6 +266,14 @@ const isArray = (object, config = {}) => {
         }
     }
     return true;
+};
+
+const isDate = (object, config = {}) => {
+    if (config.constructor !== Object) {
+        throw new TypeError('isDate -> config is not an object');
+    }
+    // @TODO Add more config options for date
+    return moment(object).isValid() && typeof object !== TYPES.NUMBER;
 };
 
 const buildRegex = (allowLetters, allowNumbers, specialCharacters = []) => {
@@ -408,6 +418,7 @@ let forExport = {
     isUrl,
     isEmail,
     isArray,
+    isDate,
     objectValidator,
     stringValidator,
     numberValidator,

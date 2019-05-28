@@ -46,8 +46,6 @@ const REGEX = {
     AFTER_AT: /^[a-zA-Z0-9._%+-]+\.[a-zA-Z]+$/,
     URL: /^(http|https):\/\/(www.)?[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]\.[a-zA-Z]{2,16}([?/]?|([?/][\S]*)?)$/,
     URL_HTTPS: /^(https):\/\/(www.)?[a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]\.[a-zA-Z]{2,16}([?/]?|([?/][\S]*)?)$/,
-
-
 };
 
 const VALIDATOR_TYPES = {

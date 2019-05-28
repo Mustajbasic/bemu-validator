@@ -1,3 +1,5 @@
+process.env.NODE_ENV = 'testing';
+
 const chai = require('chai');
 const {
     validator,
